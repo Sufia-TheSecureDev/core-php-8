@@ -11,7 +11,7 @@
         - float -> 3.44 , 1.2
         - string -> 'a' , "hello world"
     - 4 compound data type
-        - array  -> [int , string , float]
+        - array  -> [int , string , float] 
         - object
         - callable
         - iterable
@@ -119,3 +119,36 @@ array_pop()  // element remove from last
 unset($programingL[3])  //element remove from specific index 
 unset($programingL)   // remove entire array 
  ```
+
+
+## Day 2 :
+- Control structure [if / else if /elseif /else] _ [see here](./day-2/control-stricture.php)
+- loop [while /do-while /for /foreach] _[see here](./day-2/loop.php)
+- switch [switch work with loose comparison '==' ]
+``` 
+syntex ---
+
+    $score = 4.50 ;
+    switch ($score){ 
+        case $score>= 4.00:
+            echo 'A' ;
+            break;
+        default:
+            echo 'Fail';
+    }
+
+```
+- match [ this is a strict comparison like '=== '] _ [code](./day-2/match.php)
+``` 
+syntex ---
+
+    $day = 3;
+    $dayName = match($day){
+    1       =>  'Saturday',
+    2       =>  'Sunday',
+    3       =>  'MOnday', 
+    default => 'sorry'
+    };
+echo $dayName;}
+
+```

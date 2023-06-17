@@ -8,12 +8,12 @@ echo $fullName .'<br>';
 
 #HereDoc
 $greet = 'hello';
-$info = <<<TEXT
+$info = <<<SUFIA
 HereDoc 
 Greet : $greet 'i can use variable and quote "
 <h>This is a Heading </h> <br>
 
-TEXT;
+SUFIA;
 echo nl2br($info) ;
 
 #NowDoc
